@@ -63,7 +63,7 @@ public class Demo {
 		for(Answer1 A:Q.getAnswers()) {
 			System.out.println(A.getAnswer());
 		}
-		System.out.println("surbhi");
+		
 		
 		s.close();
         factory.close();
