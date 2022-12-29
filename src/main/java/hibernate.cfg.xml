@@ -11,7 +11,7 @@
        
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
         <mapping class="com.cdac.MavenProject.Student"/>
         <mapping class="com.cdac.MavenProject.Address"/>
          <mapping class="com.map.Question"/>
@@ -19,6 +19,9 @@
           <mapping class="OnetoMany.Question1"/>
           
           <mapping class="OnetoMany.Answer1"/>
+          
+           <mapping class="ManyToMany.Emp"/>
+            <mapping class="ManyToMany.Project"/>
           
 
         

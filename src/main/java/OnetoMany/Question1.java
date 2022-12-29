@@ -14,7 +14,7 @@ import javax.persistence.OneToMany;
 		private int Q_id;
 		private String Question;
 		
-		@OneToMany
+		@OneToMany(mappedBy="question")
 		private List<Answer1>answers;
 
 		public Question1() {
